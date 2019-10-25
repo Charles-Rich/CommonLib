@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CommonLib</string>
+
+    <string name="common_button_ok">确定</string>
+    <string name="common_button_cancel">取消</string>
+    <string name="common_dialog_loading">加载中…</string>
+    <string name="common_text_title_alert">提示信息</string>
+
+    <string name="common_button_back">返回</string>
+
+    <string name="photo_no_gallery_app">没有相册软件，运行文件浏览器</string>
+    <string name="photo_no_file_browser_app">您的系统没有文件浏览器或则相册支持,请安装！</string>
+    <string name="photo_no_camera_app">您的系统没有相机应用,请安装！</string>
+    <string name="photo_no_cut_app">您的系统没有剪裁相片应用,请安装！</string>
+
+</resources>

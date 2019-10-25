@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_myinfo_changebirth"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ly_myinfo_changebirth_child"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="27dip"
+        android:layout_marginRight="27dip"
+        android:background="@drawable/wheel_bg_dialog_selector"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_share_title"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"
+            android:gravity="center_vertical"
+            android:text="选择日期"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+        
+        <View 
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="18dp"
+            android:background="#e5e5e5"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+        
+		<LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="160dp"
+	        android:orientation="horizontal"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:gravity="center_vertical">
+	        <com.grandhyatt.commonlib.view.wheelview.WheelView
+	            android:id="@+id/wv_birth_year"
+	            android:layout_width="0dip"
+	            android:layout_weight="1"
+	            android:layout_height="match_parent"
+	            android:layout_gravity="center_vertical"
+	            />
+	        <com.grandhyatt.commonlib.view.wheelview.WheelView
+	            android:id="@+id/wv_birth_month"
+	            android:layout_width="0dip"
+	            android:layout_weight="1"
+	            android:layout_height="match_parent"
+	            android:layout_gravity="center_vertical"
+	            />
+	        <com.grandhyatt.commonlib.view.wheelview.WheelView
+	            android:id="@+id/wv_birth_day"
+	            android:layout_width="0dip"
+	            android:layout_weight="1"
+	            android:layout_height="match_parent"
+	            android:layout_gravity="center_vertical"
+	            />
+	    </LinearLayout>
+	    
+        <View 
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="18dp"
+            android:layout_marginTop="18dp"
+            android:background="#e5e5e5"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+		
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="18dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp">
+
+            <TextView
+                android:id="@+id/btn_myinfo_cancel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/shape_popup_window_cancel_bg"
+                android:text="取消"
+                android:textColor="@color/dialog_blue"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/btn_myinfo_sure"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/shape_popup_window_sure_bg"
+                android:text="确定"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

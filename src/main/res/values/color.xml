@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white_01">#FFFFFE</color>
+    <color name="white_02">#FAFAFA</color>
+    <color name="white_03">#EEEEEE</color>
+    <color name="white_06">#C0C0C0</color>
+    <color name="white_08">#F0F0F0</color>
+
+    <color name="gray_03">#999999</color>
+    <color name="gray_04">#C0C0C0</color>
+    <color name="gray_05">#666666</color>
+    <color name="gray_06">#333333</color>
+    <color name="gray_07">#555555</color>
+    <color name="gray_08">#E3E3D3</color>
+    <color name="gray_09">#F2F2F2</color>
+    <color name="gray_23">#555555</color>
+    <color name="gray_39">#626262</color>
+
+    <color name="dialog_blue">#0083FF</color>
+    <color name="dialog_orange">#FF6600</color>
+
+    <color name="yellow_01">#FED500</color>
+    <color name="yellow_02">#bca73d</color>
+    <color name="yellow_03">#f4d227</color>
+
+    <color name="blue_01">#4183d7</color>
+    <color name="blue_02">#2bcdea</color>
+    <color name="blue_03">#83cde6</color>
+    <color name="blue_04">#FF2766B6</color>
+
+    <color name="blue_title_bar">#4183D7</color>
+
+    <color name="green_activity_bar">#FF75C739</color>
+    <color name="green_activity_bar_prssed">#68B82E</color>
+</resources>

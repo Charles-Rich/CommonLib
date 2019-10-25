@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#00000000"
+      android:gravity="bottom"
+      android:orientation="vertical"
+      android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/mTv_Title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/common_dialog_item_bg_only"
+        android:padding="10dp"
+        android:textColor="@color/dialog_orange"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:visibility="gone"/>"
+
+    <ListView
+        android:id="@+id/mLv_DialogList"
+        android:layout_width="match_parent"
+        android:dividerHeight="0.5dp"
+        android:divider="#DAD9DB"
+        android:layout_marginTop="5dp"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+    <Button
+        android:id="@+id/mBtn_Cancel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/common_dialog_item_bg_only"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/common_button_cancel"
+        android:textColor="@color/dialog_blue"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+</LinearLayout>
