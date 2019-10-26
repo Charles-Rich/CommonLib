@@ -25,13 +25,13 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api fileTree(dir: 'libs', include: ['*.jar'])
 
     testImplementation 'junit:junit:4.12'
     testImplementation 'com.android.support.test:runner:1.0.2'
     testImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    implementation 'com.android.support:appcompat-v7:27.1.1'
+    api 'com.android.support:appcompat-v7:27.1.1'
 
-    implementation 'me.imid.swipebacklayout.lib:library:1.1.0'
+    api 'me.imid.swipebacklayout.lib:library:1.1.0'
 }
